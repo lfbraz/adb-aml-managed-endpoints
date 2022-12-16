@@ -12,7 +12,7 @@ Below is a diagram demonstrating the deployment process:
 
 * You must have an Azure Databricks Workspace inside a private vnet and with No-Public IP enable. For more information about this configuration please look in this [doc](https://learn.microsoft.com/en-us/azure/databricks/security/secure-cluster-connectivity).
 
-* You must have an Azure Machine Learning Workspace with no Public Acess and the private endpoints configured for the Workspace and all the dependencies. For more information about this configuration please look in this [doc](https://learn.microsoft.com/en-us/azure/machine-learning/how-to-secure-workspace-vnet?tabs=pe%2Ccli).
+* You must have an Azure Machine Learning Workspace with no Public Access and the private endpoints configured for the Workspace and all the dependencies. For more information about this configuration please look in this [doc](https://learn.microsoft.com/en-us/azure/machine-learning/how-to-secure-workspace-vnet?tabs=pe%2Ccli).
 
 * A peering between the two vnets (AML and ADB). It is also important to ensure the Azure Databricks vnet has a vnet-link with the Private DNS Zones of AML Workspace and dependencies.
 
