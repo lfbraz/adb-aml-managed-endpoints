@@ -1,4 +1,4 @@
-# Deploy models to Azure ML Managed Online Endpoints from Databricks in a secure way
+# Deploy models from Azure Databricks to Azure ML in a secure way - Solution Accelerator
 
 In this repository we will see how to deploy real-time models connecting the Workspaces of Azure Databricks and Azure Machine Learning in a secure way.
 
